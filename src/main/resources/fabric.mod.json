@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "lithereal",
+  "version": "${version}",
+
+  "name": "Lithereal",
+  "description": "Lithereal is a mob about mystical energies and adventuring!",
+  "authors": [
+    "TheLightBlueGame"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/lithereal-fabric",
+    "sources": "https://github.com/LightBlueGamer/Lithereal-Fabric"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.thelightbluegame.lithereal.LitherealMod"
+    ]
+  },
+  "mixins": [
+    "lithereal.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
