@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "lithereal:block/aether_smooth_stone"
+  }
+}

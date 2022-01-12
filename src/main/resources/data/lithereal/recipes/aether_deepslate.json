@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "lithereal:cobbled_aether_deepslate"
+  },
+  "result": "lithereal:aether_deepslate",
+  "experience": 0.1,
+  "cookingtime": 10
+}

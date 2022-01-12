@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "lithereal:block/cobbled_aether_deepslate"
+  }
+}

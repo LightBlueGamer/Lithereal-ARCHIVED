@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "lithereal:coarsite_cobblestone"
+  },
+  "result": "lithereal:coarsite_stone",
+  "experience": 0.1,
+  "cookingtime": 10
+}

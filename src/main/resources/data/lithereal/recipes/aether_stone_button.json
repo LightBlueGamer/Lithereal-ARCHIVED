@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lithereal:aether_stone"
+    }
+  ],
+  "result": {
+    "item": "lithereal:aether_stone_button"
+  }
+}

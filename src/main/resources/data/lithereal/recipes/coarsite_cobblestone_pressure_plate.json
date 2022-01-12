@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lithereal:coarsite_cobblestone"
+    }
+  },
+  "result": {
+    "item": "lithereal:coarsite_cobblestone_pressure_plate"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "lithereal:block/cobbled_aether_deepslate"
+  }
+}

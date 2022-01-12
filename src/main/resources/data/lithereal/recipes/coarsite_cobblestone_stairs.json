@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lithereal:coarsite_cobblestone"
+    }
+  },
+  "result": {
+    "item": "lithereal:coarsite_cobblestone_stairs",
+    "count": 4
+  }
+}

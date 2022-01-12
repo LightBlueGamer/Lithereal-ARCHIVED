@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "lithereal:block/aether_stone_brick"
+  }
+}

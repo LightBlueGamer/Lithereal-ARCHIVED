@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lithereal:pure_litherite_block"
+    }
+  ],
+  "result": {
+    "item": "lithereal:pure_litherite",
+    "count": 9
+  }
+}

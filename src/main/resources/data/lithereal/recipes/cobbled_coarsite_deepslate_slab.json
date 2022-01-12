@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lithereal:cobbled_coarsite_deepslate"
+    }
+  },
+  "result": {
+    "item": "lithereal:cobbled_coarsite_deepslate_slab",
+        "count": 4
+  }
+}

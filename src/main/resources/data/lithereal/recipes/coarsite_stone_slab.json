@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lithereal:coarsite_stone"
+    }
+  },
+  "result": {
+    "item": "lithereal:coarsite_stone_slab",
+        "count": 4
+  }
+}

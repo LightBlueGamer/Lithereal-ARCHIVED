@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lithereal:aether_cobblestone"
+    }
+  ],
+  "result": {
+    "item": "lithereal:aether_cobblestone_button"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "lithereal:block/cobbled_coarsite_deepslate"
+  }
+}

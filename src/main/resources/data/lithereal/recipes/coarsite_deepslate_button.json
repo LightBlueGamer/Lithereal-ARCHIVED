@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lithereal:coarsite_deepslate"
+    }
+  ],
+  "result": {
+    "item": "lithereal:coarsite_deepslate_button"
+  }
+}

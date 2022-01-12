@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lithereal:coarsite_stone"
+    }
+  ],
+  "result": {
+    "item": "lithereal:coarsite_stone_button"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lithereal:aether_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "lithereal:aether_stone_brick_slab",
+        "count": 4
+  }
+}
