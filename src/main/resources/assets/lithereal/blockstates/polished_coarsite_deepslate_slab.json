@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lithereal:block/polished_coarsite_deepslate_slab"
+    },
+    "type=double": {
+      "model": "lithereal:block/polished_coarsite_deepslate"
+    },
+    "type=top": {
+      "model": "lithereal:block/polished_coarsite_deepslate_slab_top"
+    }
+  }
+}

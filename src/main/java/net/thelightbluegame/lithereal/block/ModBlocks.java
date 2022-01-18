@@ -98,6 +98,20 @@ public class ModBlocks {
     public static final Block POLISHED_AETHER_DEEPSLATE_STAIRS = registerBlock("polished_aether_deepslate_stairs",
             new ModStairsBlock(ModBlocks.POLISHED_AETHER_DEEPSLATE.getDefaultState() ,FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
+    public static final Block COARSITE_DEEPSLATE_BRICK_SLAB = registerBlock("coarsite_deepslate_brick_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block AETHER_DEEPSLATE_BRICK_SLAB = registerBlock("aether_deepslate_brick_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_COARSITE_DEEPSLATE_SLAB = registerBlock("polished_coarsite_deepslate_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_AETHER_DEEPSLATE_SLAB = registerBlock("polished_aether_deepslate_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+
+
     public static final Block PORTAL_FRAME = registerBlock("portal_frame",
             new Block(FabricBlockSettings.of(Material.STONE).strength(20f).requiresTool()), ModItemGroups.LITHEREAL);
 

@@ -96,6 +96,10 @@
     "lithereal:aether_deepslate_bricks",
     "lithereal:aether_deepslate_brick_stairs",
     "lithereal:coarsite_deepslate_brick_stairs",
-    "lithereal:coarsite_deepslate_bricks"
+    "lithereal:coarsite_deepslate_bricks",
+    "lithereal:polished_aether_deepslate_slab",
+    "lithereal:polished_coarsite_deepslate_slab",
+    "lithereal:aether_deepslate_brick_slab",
+    "lithereal:coarsite_deepslate_brick_slab"
   ]
 }

@@ -100,6 +100,10 @@
   "block.lithereal.polished_coarsite_deepslate_stairs": "Polished Coarsite Deepslate Stairs",
   "block.lithereal.aether_deepslate_brick_stairs": "Aether Deepslate Brick Stairs",
   "block.lithereal.coarsite_deepslate_brick_stairs": "Coarsite Deepslate Brick Stairs",
+  "block.lithereal.polished_aether_deepslate_slab": "Polished Aether Deepslate Slab",
+  "block.lithereal.polished_coarsite_deepslate_slab": "Polished Coarsite Deepslate Slab",
+  "block.lithereal.aether_deepslate_brick_slab": "Aether Deepslate Brick Slab",
+  "block.lithereal.coarsite_deepslate_brick_slab": "Coarsite Deepslate Brick Slab",
 
   "itemGroup.lithereal.lithereal": "Lithereal"
 }

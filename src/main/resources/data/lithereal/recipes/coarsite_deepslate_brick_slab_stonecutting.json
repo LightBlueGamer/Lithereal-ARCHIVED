@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lithereal:coarsite_deepslate_bricks"
+  },
+  "result": "lithereal:coarsite_deepslate_brick_slab",
+  "count": 2
+}
