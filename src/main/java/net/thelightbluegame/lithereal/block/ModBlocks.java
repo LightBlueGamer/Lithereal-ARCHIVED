@@ -3,6 +3,7 @@ package net.thelightbluegame.lithereal.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.block.entity.FurnaceBlockEntity;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -72,6 +73,30 @@ public class ModBlocks {
 
     public static final Block COARSITE_STONE_BRICKS = registerBlock("coarsite_stone_bricks",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COARSITE_DEEPSLATE_BRICKS = registerBlock("coarsite_deepslate_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block AETHER_DEEPSLATE_BRICKS = registerBlock("aether_deepslate_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_COARSITE_DEEPSLATE = registerBlock("polished_coarsite_deepslate",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_AETHER_DEEPSLATE = registerBlock("polished_aether_deepslate",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COARSITE_DEEPSLATE_BRICK_STAIRS = registerBlock("coarsite_deepslate_brick_stairs",
+            new ModStairsBlock(ModBlocks.COARSITE_DEEPSLATE_BRICKS.getDefaultState() ,FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block AETHER_DEEPSLATE_BRICK_STAIRS = registerBlock("aether_deepslate_brick_stairs",
+            new ModStairsBlock(ModBlocks.AETHER_DEEPSLATE_BRICKS.getDefaultState() ,FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_COARSITE_DEEPSLATE_STAIRS = registerBlock("polished_coarsite_deepslate_stairs",
+            new ModStairsBlock(ModBlocks.POLISHED_COARSITE_DEEPSLATE.getDefaultState() ,FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_AETHER_DEEPSLATE_STAIRS = registerBlock("polished_aether_deepslate_stairs",
+            new ModStairsBlock(ModBlocks.POLISHED_AETHER_DEEPSLATE.getDefaultState() ,FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block PORTAL_FRAME = registerBlock("portal_frame",
             new Block(FabricBlockSettings.of(Material.STONE).strength(20f).requiresTool()), ModItemGroups.LITHEREAL);
@@ -275,9 +300,44 @@ public class ModBlocks {
     public static final Block AETHER_STONE_WALL = registerBlock("aether_stone_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
-    public static final Block COARSITE_STONE_WALL = registerBlock("aether_stone_wall",
+    public static final Block COARSITE_STONE_WALL = registerBlock("coarsite_stone_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
+    public static final Block AETHER_SMOOTH_STONE_WALL = registerBlock("aether_smooth_stone_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COARSITE_SMOOTH_STONE_WALL = registerBlock("coarsite_smooth_stone_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block AETHER_STONE_BRICK_WALL = registerBlock("aether_stone_brick_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COARSITE_STONE_BRICK_WALL = registerBlock("coarsite_stone_brick_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block AETHER_SMOOTH_STONE_BRICK_WALL = registerBlock("aether_smooth_stone_brick_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COARSITE_SMOOTH_STONE_BRICK_WALL = registerBlock("coarsite_smooth_stone_brick_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block AETHER_COBBLESTONE_WALL = registerBlock("aether_cobblestone_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COARSITE_COBBLESTONE_WALL = registerBlock("coarsite_cobblestone_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block AETHER_DEEPSLATE_WALL = registerBlock("aether_deepslate_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COARSITE_DEEPSLATE_WALL = registerBlock("coarsite_deepslate_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COBBLED_AETHER_DEEPSLATE_WALL = registerBlock("cobbled_aether_deepslate_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COBBLED_COARSITE_DEEPSLATE_WALL = registerBlock("cobbled_coarsite_deepslate_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

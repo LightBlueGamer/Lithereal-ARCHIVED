@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lithereal:aether_stone"
+  },
+  "result": "lithereal:aether_stone_wall",
+  "count": 1
+}

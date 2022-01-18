@@ -1,6 +1,6 @@
 {
   "parent": "block/button_pressed",
   "textures": {
-    "texture": "lithereal:block/coarsite_stone_brick"
+    "texture": "lithereal:block/coarsite_stone_bricks"
   }
 }

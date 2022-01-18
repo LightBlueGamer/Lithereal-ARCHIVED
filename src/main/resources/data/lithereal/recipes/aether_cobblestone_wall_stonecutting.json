@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lithereal:aether_cobblestone"
+  },
+  "result": "lithereal:aether_cobblestone_wall",
+  "count": 1
+}
