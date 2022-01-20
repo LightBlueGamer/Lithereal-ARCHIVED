@@ -15,7 +15,7 @@ import net.thelightbluegame.lithereal.block.custom.ModStairsBlock;
 import net.thelightbluegame.lithereal.block.custom.ModStoneButtonBlock;
 import net.thelightbluegame.lithereal.item.ModItemGroups;
 
-public class ModBlocks {
+public class    ModBlocks {
 
     public static final Block PURE_LITHERITE_BLOCK = registerBlock("pure_litherite_block",
             new Block(FabricBlockSettings.of(Material.AMETHYST).strength(5f).requiresTool()), ModItemGroups.LITHEREAL);
@@ -110,7 +110,29 @@ public class ModBlocks {
     public static final Block POLISHED_AETHER_DEEPSLATE_SLAB = registerBlock("polished_aether_deepslate_slab",
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
+    public static final Block COARSITE_DEEPSLATE_BRICK_BUTTON = registerBlock("coarsite_deepslate_brick_button",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
+    public static final Block AETHER_DEEPSLATE_BRICK_BUTTON = registerBlock("aether_deepslate_brick_button",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_COARSITE_DEEPSLATE_BUTTON = registerBlock("polished_coarsite_deepslate_button",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_AETHER_DEEPSLATE_BUTTON = registerBlock("polished_aether_deepslate_button",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COARSITE_DEEPSLATE_BRICK_PRESSURE_PLATE = registerBlock("coarsite_deepslate_brick_pressure_plate",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block AETHER_DEEPSLATE_BRICK_PRESSURE_PLATE = registerBlock("aether_deepslate_brick_pressure_plate",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_COARSITE_DEEPSLATE_PRESSURE_PLATE = registerBlock("polished_coarsite_deepslate_pressure_plate",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_AETHER_DEEPSLATE_PRESSURE_PLATE = registerBlock("polished_aether_deepslate_plate",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block PORTAL_FRAME = registerBlock("portal_frame",
             new Block(FabricBlockSettings.of(Material.STONE).strength(20f).requiresTool()), ModItemGroups.LITHEREAL);

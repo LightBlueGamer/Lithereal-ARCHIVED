@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "lithereal:block/aether_deepslate_bricks"
+  }
+}

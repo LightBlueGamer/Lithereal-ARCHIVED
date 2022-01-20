@@ -98,6 +98,14 @@
     "lithereal:polished_aether_deepslate_slab",
     "lithereal:polished_coarsite_deepslate_slab",
     "lithereal:aether_deepslate_brick_slab",
-    "lithereal:coarsite_deepslate_brick_slab"
+    "lithereal:coarsite_deepslate_brick_slab",
+    "lithereal:polished_aether_deepslate_button",
+    "lithereal:polished_coarsite_deepslate_button",
+    "lithereal:aether_deepslate_brick_button",
+    "lithereal:coarsite_deepslate_brick_button",
+    "lithereal:polished_aether_deepslate_pressure_plate",
+    "lithereal:polished_coarsite_deepslate_pressure_plate",
+    "lithereal:aether_deepslate_brick_pressure_plate",
+    "lithereal:coarsite_deepslate_brick_pressure_plate"
   ]
 }

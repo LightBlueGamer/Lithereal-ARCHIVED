@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "lithereal:block/polished_aether_deepslate"
+  }
+}

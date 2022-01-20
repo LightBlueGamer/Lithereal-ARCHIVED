@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "lithereal:block/aether_deepslate_brick_pressure_plate" },
+    "powered=true": { "model": "lithereal:block/aether_deepslate_brick_pressure_plate_down" }
+  }
+}

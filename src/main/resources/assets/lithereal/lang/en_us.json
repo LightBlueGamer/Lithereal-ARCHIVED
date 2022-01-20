@@ -104,6 +104,15 @@
   "block.lithereal.polished_coarsite_deepslate_slab": "Polished Coarsite Deepslate Slab",
   "block.lithereal.aether_deepslate_brick_slab": "Aether Deepslate Brick Slab",
   "block.lithereal.coarsite_deepslate_brick_slab": "Coarsite Deepslate Brick Slab",
+  "block.lithereal.polished_aether_deepslate_button": "Polished Aether Deepslate Button",
+  "block.lithereal.polished_coarsite_deepslate_button": "Polished Coarsite Deepslate Button",
+  "block.lithereal.aether_deepslate_brick_button": "Aether Deepslate Brick Button",
+  "block.lithereal.coarsite_deepslate_brick_button": "Coarsite Deepslate Brick Button",
+  "block.lithereal.polished_aether_deepslate_pressure_plate": "Polished Aether Deepslate Pressure Plate",
+  "block.lithereal.polished_coarsite_deepslate_pressure_plate": "Polished Coarsite Deepslate Pressure Plate",
+  "block.lithereal.aether_deepslate_brick_pressure_plate": "Aether Deepslate Brick Pressure Plate",
+  "block.lithereal.coarsite_deepslate_brick_pressure_plate": "Coarsite Deepslate Brick Pressure Plate",
+
 
   "itemGroup.lithereal.lithereal": "Lithereal"
 }
