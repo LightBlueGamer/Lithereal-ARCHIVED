@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "lithereal:polished_coarsite_deepslate"
+  },
+  "result": "lithereal:polished_coarsite_deepslate_wall",
+  "count": 1
+}

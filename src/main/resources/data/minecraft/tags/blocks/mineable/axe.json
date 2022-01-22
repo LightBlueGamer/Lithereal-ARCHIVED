@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-
+    "lithereal:shifted_log",
+    "lithereal:stripped_shifted_log",
+    "lithereal:shifted_wood",
+    "lithereal:stripped_shifted_wood"
   ]
 }

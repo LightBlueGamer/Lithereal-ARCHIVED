@@ -106,6 +106,10 @@
     "lithereal:polished_aether_deepslate_pressure_plate",
     "lithereal:polished_coarsite_deepslate_pressure_plate",
     "lithereal:aether_deepslate_brick_pressure_plate",
-    "lithereal:coarsite_deepslate_brick_pressure_plate"
+    "lithereal:coarsite_deepslate_brick_pressure_plate",
+    "lithereal:polished_aether_deepslate_wall",
+    "lithereal:polished_coarsite_deepslate_wall",
+    "lithereal:aether_deepslate_brick_wall",
+    "lithereal:coarsite_deepslate_brick_wall"
   ]
 }

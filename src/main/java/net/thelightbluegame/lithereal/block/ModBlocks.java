@@ -15,6 +15,8 @@ import net.thelightbluegame.lithereal.block.custom.ModStairsBlock;
 import net.thelightbluegame.lithereal.block.custom.ModStoneButtonBlock;
 import net.thelightbluegame.lithereal.item.ModItemGroups;
 
+import javax.swing.*;
+
 public class    ModBlocks {
 
     public static final Block PURE_LITHERITE_BLOCK = registerBlock("pure_litherite_block",
@@ -111,28 +113,44 @@ public class    ModBlocks {
             new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(3.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block COARSITE_DEEPSLATE_BRICK_BUTTON = registerBlock("coarsite_deepslate_brick_button",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block AETHER_DEEPSLATE_BRICK_BUTTON = registerBlock("aether_deepslate_brick_button",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block POLISHED_COARSITE_DEEPSLATE_BUTTON = registerBlock("polished_coarsite_deepslate_button",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block POLISHED_AETHER_DEEPSLATE_BUTTON = registerBlock("polished_aether_deepslate_button",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block COARSITE_DEEPSLATE_BRICK_PRESSURE_PLATE = registerBlock("coarsite_deepslate_brick_pressure_plate",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS,
+                    FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block AETHER_DEEPSLATE_BRICK_PRESSURE_PLATE = registerBlock("aether_deepslate_brick_pressure_plate",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS,
+                    FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block POLISHED_COARSITE_DEEPSLATE_PRESSURE_PLATE = registerBlock("polished_coarsite_deepslate_pressure_plate",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS,
+                    FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
-    public static final Block POLISHED_AETHER_DEEPSLATE_PRESSURE_PLATE = registerBlock("polished_aether_deepslate_plate",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+    public static final Block POLISHED_AETHER_DEEPSLATE_PRESSURE_PLATE = registerBlock("polished_aether_deepslate_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS,
+                    FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block COARSITE_DEEPSLATE_BRICK_WALL = registerBlock("coarsite_deepslate_brick_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block AETHER_DEEPSLATE_BRICK_WALL = registerBlock("aether_deepslate_brick_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_COARSITE_DEEPSLATE_WALL = registerBlock("polished_coarsite_deepslate_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block POLISHED_AETHER_DEEPSLATE_WALL = registerBlock("polished_aether_deepslate_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block PORTAL_FRAME = registerBlock("portal_frame",
             new Block(FabricBlockSettings.of(Material.STONE).strength(20f).requiresTool()), ModItemGroups.LITHEREAL);
@@ -375,6 +393,29 @@ public class    ModBlocks {
     public static final Block COBBLED_COARSITE_DEEPSLATE_WALL = registerBlock("cobbled_coarsite_deepslate_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
+    public static final Block SHIFTED_LOG = registerBlock("shifted_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroups.LITHEREAL);
+
+    public static final Block SHIFTED_WOOD = registerBlock("shifted_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD)), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_SHIFTED_LOG = registerBlock("stripped_shifted_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_SHIFTED_WOOD = registerBlock("stripped_shifted_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
+
+    public static final Block MANGLED_LOG = registerBlock("mangled_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroups.LITHEREAL);
+
+    public static final Block MANGLED_WOOD = registerBlock("mangled_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD)), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_MANGLED_LOG = registerBlock("stripped_mangled_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_MANGLED_WOOD = registerBlock("stripped_mangled_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

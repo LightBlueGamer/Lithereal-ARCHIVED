@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "lithereal:polished_aether_deepslate"
+    }
+  },
+  "result": {
+    "item": "lithereal:polished_aether_deepslate_wall",
+        "count": 6
+  }
+}

@@ -1,7 +1,6 @@
 {
   "item.lithereal.pure_litherite": "Pure Litherite",
   "item.lithereal.raw_litherite": "Raw Litherite",
-
   "block.lithereal.pure_litherite_block": "Block of Pure Litherite",
   "block.lithereal.litherite_ore": "Litherite Ore",
   "block.lithereal.deepslate_litherite_ore": "Deepslate Litherite Ore",
@@ -18,9 +17,9 @@
   "block.lithereal.coarsite_cobblestone": "Coarsite Cobblestone",
   "block.lithereal.coarsite_deepslate": "Coarsite Deepslate",
   "block.lithereal.cobbled_coarsite_deepslate": "Cobbled Coarsite Deepslate",
-  "block.lithereal.coarsite_smooth_stone": "Coarsite Smooth Stone",
-  "block.lithereal.coarsite_smooth_stone_bricks": "Coarsite Smooth Stone Bricks",
-  "block.lithereal.coarsite_stone_bricks": "Coarsite Stone Bricks",
+  "block.lithereal.coarsite_smooth_stone": "Aether Smooth Stone",
+  "block.lithereal.coarsite_smooth_stone_bricks": "Aether Smooth Stone Bricks",
+  "block.lithereal.coarsite_stone_bricks": "Aether Stone Bricks",
   "block.lithereal.portal_frame": "Portal Frame",
   "block.lithereal.coarsite_stone_stairs": "Coarsite Stone Stairs",
   "block.lithereal.aether_stone_stairs": "Aether Stone Stairs",
@@ -112,14 +111,5 @@
   "block.lithereal.polished_coarsite_deepslate_pressure_plate": "Polished Coarsite Deepslate Pressure Plate",
   "block.lithereal.aether_deepslate_brick_pressure_plate": "Aether Deepslate Brick Pressure Plate",
   "block.lithereal.coarsite_deepslate_brick_pressure_plate": "Coarsite Deepslate Brick Pressure Plate",
-  "block.lithereal.polished_aether_deepslate_wall": "Polished Aether Deepslate Wall",
-  "block.lithereal.polished_coarsite_deepslate_wall": "Polished Coarsite Deepslate Wall",
-  "block.lithereal.aether_deepslate_brick_wall": "Aether Deepslate Brick Wall",
-  "block.lithereal.coarsite_deepslate_brick_wall": "Coarsite Deepslate Brick Wall",
-  "block.lithereal.shifted_log": "Shifted Log",
-  "block.lithereal.stripped_shifted_log": "Stripped Shifted Log",
-  "block.lithereal.shifted_wood": "Shifted Wood",
-  "block.lithereal.stripped_shifted_wood": "Stripped Shifted Wood",
-
   "itemGroup.lithereal.lithereal": "Lithereal"
 }
