@@ -13,5 +13,7 @@ public class ModRegistries {
         StrippableBlockRegistry.register(ModBlocks.SHIFTED_WOOD, ModBlocks.STRIPPED_SHIFTED_WOOD);
         StrippableBlockRegistry.register(ModBlocks.MANGLED_LOG, ModBlocks.STRIPPED_MANGLED_LOG);
         StrippableBlockRegistry.register(ModBlocks.MANGLED_WOOD, ModBlocks.STRIPPED_MANGLED_WOOD);
+        StrippableBlockRegistry.register(ModBlocks.IMBUED_LOG, ModBlocks.STRIPPED_IMBUED_LOG);
+        StrippableBlockRegistry.register(ModBlocks.IMBUED_WOOD, ModBlocks.STRIPPED_IMBUED_WOOD);
     }
 }

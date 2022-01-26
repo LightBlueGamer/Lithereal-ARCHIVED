@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lithereal:mangled_wood"
+    }
+  ],
+  "result": {
+    "item": "lithereal:mangled_planks",
+    "count": 4
+  }
+}

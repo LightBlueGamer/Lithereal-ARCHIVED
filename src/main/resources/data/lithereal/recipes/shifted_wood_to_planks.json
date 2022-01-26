@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lithereal:shifted_wood"
+    }
+  ],
+  "result": {
+    "item": "lithereal:shifted_planks",
+    "count": 4
+  }
+}

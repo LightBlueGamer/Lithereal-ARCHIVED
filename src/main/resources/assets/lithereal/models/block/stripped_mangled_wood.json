@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lithereal:block/stripped_mangled_log",
+    "side": "lithereal:block/stripped_mangled_log"
+  }
+}

@@ -1,6 +1,16 @@
 {
   "item.lithereal.pure_litherite": "Pure Litherite",
   "item.lithereal.raw_litherite": "Raw Litherite",
+  "item.lithereal.litherite_pickaxe": "Litherite Pickaxe",
+  "item.lithereal.litherite_axe": "Litherite Axe",
+  "item.lithereal.litherite_hoe": "Litherite Hoe",
+  "item.lithereal.litherite_shovel": "Litherite Shovel",
+  "item.lithereal.litherite_sword": "Litherite Sword",
+
+  "item.lithereal.litherite_helmet": "Litherite Helmet",
+  "item.lithereal.litherite_chestplate": "Litherite Chestplate",
+  "item.lithereal.litherite_leggings": "Litherite Leggings",
+  "item.lithereal.litherite_boots": "Litherite Boots",
 
   "block.lithereal.pure_litherite_block": "Block of Pure Litherite",
   "block.lithereal.litherite_ore": "Litherite Ore",
@@ -120,6 +130,20 @@
   "block.lithereal.stripped_shifted_log": "Stripped Shifted Log",
   "block.lithereal.shifted_wood": "Shifted Wood",
   "block.lithereal.stripped_shifted_wood": "Stripped Shifted Wood",
+  "block.lithereal.mangled_log": "Mangled Log",
+  "block.lithereal.stripped_mangled_log": "Stripped Mangled Log",
+  "block.lithereal.mangled_wood": "Mangled Wood",
+  "block.lithereal.stripped_mangled_wood": "Stripped Mangled Wood",
+  "block.lithereal.imbued_log": "Imbued Log",
+  "block.lithereal.stripped_imbued_log": "Stripped Imbued Log",
+  "block.lithereal.imbued_wood": "Imbued Wood",
+  "block.lithereal.stripped_imbued_wood": "Stripped Imbued Wood",
+  "block.lithereal.shifted_leaves": "Shifted Leaves",
+  "block.lithereal.imbued_leaves": "Imbued Leaves",
+  "block.lithereal.mangled_leaves": "Mangled Leaves",
+  "block.lithereal.shifted_planks": "Shifted Planks",
+  "block.lithereal.imbued_planks": "Imbued Planks",
+  "block.lithereal.mangled_planks": "Mangled Planks",
 
   "itemGroup.lithereal.lithereal": "Lithereal"
 }

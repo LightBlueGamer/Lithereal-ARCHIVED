@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "lithereal:stripped_mangled_log"
+    }
+  },
+  "result": {
+    "item": "lithereal:stripped_mangled_wood",
+        "count": 3
+  }
+}

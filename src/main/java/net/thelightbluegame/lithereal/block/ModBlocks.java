@@ -417,6 +417,36 @@ public class    ModBlocks {
     public static final Block STRIPPED_MANGLED_WOOD = registerBlock("stripped_mangled_wood",
             new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
 
+    public static final Block IMBUED_LOG = registerBlock("imbued_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroups.LITHEREAL);
+
+    public static final Block IMBUED_WOOD = registerBlock("imbued_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD)), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_IMBUED_LOG = registerBlock("stripped_imbued_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_IMBUED_WOOD = registerBlock("stripped_imbued_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
+
+    public static final Block SHIFTED_LEAVES = registerBlock("shifted_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroups.LITHEREAL);
+
+    public static final Block MANGLED_LEAVES = registerBlock("mangled_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroups.LITHEREAL);
+
+    public static final Block IMBUED_LEAVES = registerBlock("imbued_leaves",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroups.LITHEREAL);
+
+    public static final Block SHIFTED_PLANKS = registerBlock("shifted_planks",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+
+    public static final Block MANGLED_PLANKS = registerBlock("mangled_planks",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+
+    public static final Block IMBUED_PLANKS = registerBlock("imbued_planks",
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(LitherealMod.MOD_ID, name), block);

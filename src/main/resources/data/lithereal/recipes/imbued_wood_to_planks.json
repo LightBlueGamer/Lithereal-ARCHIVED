@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lithereal:imbued_wood"
+    }
+  ],
+  "result": {
+    "item": "lithereal:imbued_planks",
+    "count": 4
+  }
+}

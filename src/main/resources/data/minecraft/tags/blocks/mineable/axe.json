@@ -4,6 +4,17 @@
     "lithereal:shifted_log",
     "lithereal:stripped_shifted_log",
     "lithereal:shifted_wood",
-    "lithereal:stripped_shifted_wood"
+    "lithereal:stripped_shifted_wood",
+    "lithereal:mangled_log",
+    "lithereal:stripped_mangled_log",
+    "lithereal:mangled_wood",
+    "lithereal:stripped_mangled_wood",
+    "lithereal:imbued_log",
+    "lithereal:stripped_imbued_log",
+    "lithereal:imbued_wood",
+    "lithereal:stripped_imbued_wood",
+    "lithereal:shifted_planks",
+    "lithereal:imbued_planks",
+    "lithereal:mangled_planks"
   ]
 }
