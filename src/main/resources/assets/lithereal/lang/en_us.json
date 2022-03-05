@@ -1,6 +1,8 @@
 {
   "item.lithereal.pure_litherite": "Pure Litherite",
   "item.lithereal.raw_litherite": "Raw Litherite",
+  "item.lithereal.infused_coal": "Infused Coal",
+
   "item.lithereal.litherite_pickaxe": "Litherite Pickaxe",
   "item.lithereal.litherite_axe": "Litherite Axe",
   "item.lithereal.litherite_hoe": "Litherite Hoe",
@@ -144,6 +146,9 @@
   "block.lithereal.shifted_planks": "Shifted Planks",
   "block.lithereal.imbued_planks": "Imbued Planks",
   "block.lithereal.mangled_planks": "Mangled Planks",
+  "block.lithereal.shifted_sapling": "Shifted Sapling",
+  "block.lithereal.imbued_sapling": "Imbued Sapling",
+  "block.lithereal.mangled_sapling": "Mangled Sapling",
 
   "itemGroup.lithereal.lithereal": "Lithereal"
 }

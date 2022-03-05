@@ -10,9 +10,11 @@ import net.thelightbluegame.lithereal.LitherealMod;
 public class ModTags {
     public static class Blocks {
 
-        public static final Tag.Identified<Block> ENERGY_ABSORBENT = createTag("energy_absorbent");
+        public static final Tag.Identified<Block> ENERGY_ABSORBENTS = createTag("energy_absorbents");
         public static final Tag.Identified<Block> LITHERITE_BLOCKS = createCommonTag("litherite_blocks");
         public static final Tag.Identified<Block> LITHERITE_ORES = createCommonTag("litherite_ores");
+        public static final Tag.Identified<Block> WOODEN_PLANKS = createCommonTag("wooden_planks");
+        public static final Tag.Identified<Block> COBBLESTONE = createCommonTag("cobblestone");
 
 
         private static Tag.Identified<Block> createTag(String name) {
@@ -27,6 +29,7 @@ public class ModTags {
     public static class Items {
 
         public static final Tag.Identified<Item> LITHERITE_INGOTS = createCommonTag("litherite_ingots");
+        public static final Tag.Identified<Item> WOOD_STICKS = createCommonTag("wood_sticks");
 
         private static Tag.Identified<Item> createTag(String name) {
             return TagFactory.ITEM.create(new Identifier(LitherealMod.MOD_ID, name));

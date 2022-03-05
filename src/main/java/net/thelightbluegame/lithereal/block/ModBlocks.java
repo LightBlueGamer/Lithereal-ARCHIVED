@@ -3,19 +3,17 @@ package net.thelightbluegame.lithereal.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.block.entity.FurnaceBlockEntity;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.thelightbluegame.lithereal.LitherealMod;
-import net.thelightbluegame.lithereal.block.custom.ModPressurePlateBlock;
-import net.thelightbluegame.lithereal.block.custom.ModStairsBlock;
-import net.thelightbluegame.lithereal.block.custom.ModStoneButtonBlock;
+import net.thelightbluegame.lithereal.block.custom.*;
 import net.thelightbluegame.lithereal.item.ModItemGroups;
-
-import javax.swing.*;
+import net.thelightbluegame.lithereal.world.feature.tree.ImbuedSaplingGenerator;
+import net.thelightbluegame.lithereal.world.feature.tree.MangledSaplingGenerator;
+import net.thelightbluegame.lithereal.world.feature.tree.ShiftedSaplingGenerator;
 
 public class    ModBlocks {
 
@@ -439,13 +437,28 @@ public class    ModBlocks {
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroups.LITHEREAL);
 
     public static final Block SHIFTED_PLANKS = registerBlock("shifted_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
 
     public static final Block MANGLED_PLANKS = registerBlock("mangled_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
 
     public static final Block IMBUED_PLANKS = registerBlock("imbued_planks",
-            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+
+    public static final Block SHIFTED_SAPLING = registerBlock("shifted_sapling",
+            new ModSaplingBlock(new ShiftedSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
+
+    public static final Block MANGLED_SAPLING = registerBlock("mangled_sapling",
+            new ModSaplingBlock(new MangledSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
+
+    public static final Block IMBUED_SAPLING = registerBlock("imbued_sapling",
+            new ModSaplingBlock(new ImbuedSaplingGenerator(),
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
+
+    public static final Block PURIFIER = registerBlock("purifier",
+            new PurifierBlock(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

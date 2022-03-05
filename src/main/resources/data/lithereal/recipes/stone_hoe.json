@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " I",
+    " I"
+  ],
+  "key": {
+    "X": {
+      "tag": "c:cobblestone"
+    },
+    "I": {
+      "tag": "c:wood_sticks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_hoe"
+  }
+}

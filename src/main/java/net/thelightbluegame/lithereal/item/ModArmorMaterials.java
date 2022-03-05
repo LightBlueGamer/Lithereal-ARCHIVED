@@ -40,41 +40,41 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return 0;
+        return this.BASE_DURABILITY[slot.getEntitySlotId()] * this.durabilityMultiplier;
     }
 
     @Override
     public int getProtectionAmount(EquipmentSlot slot) {
-        return 0;
+        return this.protectionAmounts[slot.getEntitySlotId()];
     }
 
     @Override
     public int getEnchantability() {
-        return 0;
+        return this.enchantability;
     }
 
     @Override
     public SoundEvent getEquipSound() {
-        return null;
+        return this.equipSound;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return null;
+        return (Ingredient)this.repairIngredientSupplier.get();
     }
 
     @Override
     public String getName() {
-        return null;
+        return this.name;
     }
 
     @Override
     public float getToughness() {
-        return 0;
+        return this.toughness;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0;
+        return this.knockbackResistance;
     }
 }

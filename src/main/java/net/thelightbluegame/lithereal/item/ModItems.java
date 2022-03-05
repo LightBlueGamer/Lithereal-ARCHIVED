@@ -18,6 +18,9 @@ public class ModItems {
     public static final Item RAW_LITHERITE = registerItem("raw_litherite",
             new Item(new FabricItemSettings().group(ModItemGroups.LITHEREAL)));
 
+    public static final Item INFUSED_COAL = registerItem("infused_coal",
+            new Item(new FabricItemSettings().group(ModItemGroups.LITHEREAL)));
+
     public static final Item LITHERITE_PICKAXE = registerItem("litherite_pickaxe",
             new ModPickaxeItem(ModToolMaterial.LITHERITE, 1, -2.8f,
                     new FabricItemSettings().group(ModItemGroups.LITHEREAL)));
