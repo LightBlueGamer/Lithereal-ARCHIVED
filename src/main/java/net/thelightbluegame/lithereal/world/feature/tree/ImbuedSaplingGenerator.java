@@ -4,14 +4,13 @@ import net.minecraft.block.sapling.SaplingGenerator;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.thelightbluegame.lithereal.world.feature.ModConfiguredFeatures;
 import org.jetbrains.annotations.Nullable;
-
 import java.util.Random;
+import net.minecraft.util.registry.RegistryEntry;
 
 public class ImbuedSaplingGenerator extends SaplingGenerator {
     @Nullable
     @Override
-    protected ConfiguredFeature<?, ?> getTreeFeature(Random random, boolean bees) {
-
+    protected RegistryEntry<? extends ConfiguredFeature<?, ?>> getTreeFeature(Random random, boolean bees) {
         return ModConfiguredFeatures.IMBUED_TREE;
     }
 }

@@ -457,9 +457,6 @@ public class    ModBlocks {
             new ModSaplingBlock(new ImbuedSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
 
-    public static final Block PURIFIER = registerBlock("purifier",
-            new PurifierBlock(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroups.LITHEREAL);
-
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(LitherealMod.MOD_ID, name), block);

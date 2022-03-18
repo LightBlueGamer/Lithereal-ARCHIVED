@@ -2,7 +2,6 @@ package net.thelightbluegame.lithereal;
 
 import net.fabricmc.api.ModInitializer;
 import net.thelightbluegame.lithereal.block.ModBlocks;
-import net.thelightbluegame.lithereal.block.entity.ModBlockEntities;
 import net.thelightbluegame.lithereal.item.ModItems;
 import net.thelightbluegame.lithereal.util.ModRegistries;
 import net.thelightbluegame.lithereal.world.dimension.ModDimensions;
@@ -17,12 +16,13 @@ public class LitherealMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		ModConfiguredFeatures.registerConfiguredFeatures();
+
 		ModWorldGen.generateModWorldGen();
 		ModDimensions.register();
-		ModBlockEntities.registerAllEntities();
 		ModRegistries.registerModStuffs();
 	}
 }
