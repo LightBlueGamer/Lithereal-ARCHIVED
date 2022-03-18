@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:mangled_leaves",
+              "name": "lithereal:mangled_leaves",
               "conditions": [
                 {
                   "condition": "minecraft:alternative",
@@ -42,7 +42,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:mangled_sapling",
+              "name": "lithereal:mangled_sapling",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"

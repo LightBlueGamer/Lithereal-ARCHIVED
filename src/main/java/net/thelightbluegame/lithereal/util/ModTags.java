@@ -10,6 +10,7 @@ import net.thelightbluegame.lithereal.LitherealMod;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> WOODEN_PLANKS = createTag("wooden_planks");
+        public static final TagKey<Block> LOGS = createTag("logs");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(Registry.BLOCK_KEY, new Identifier(LitherealMod.MOD_ID, name));

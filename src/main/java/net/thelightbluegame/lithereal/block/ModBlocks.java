@@ -447,15 +447,15 @@ public class    ModBlocks {
 
     public static final Block SHIFTED_SAPLING = registerBlock("shifted_sapling",
             new ModSaplingBlock(new ShiftedSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING).nonOpaque()), ModItemGroups.LITHEREAL);
 
     public static final Block MANGLED_SAPLING = registerBlock("mangled_sapling",
             new ModSaplingBlock(new MangledSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING).nonOpaque()), ModItemGroups.LITHEREAL);
 
     public static final Block IMBUED_SAPLING = registerBlock("imbued_sapling",
             new ModSaplingBlock(new ImbuedSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING).nonOpaque()), ModItemGroups.LITHEREAL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:imbued_leaves",
+              "name": "lithereal:imbued_leaves",
               "conditions": [
                 {
                   "condition": "minecraft:alternative",
@@ -42,7 +42,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:imbued_sapling",
+              "name": "lithereal:imbued_sapling",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"

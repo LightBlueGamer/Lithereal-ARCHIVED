@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:shifted_leaves",
+              "name": "lithereal:shifted_leaves",
               "conditions": [
                 {
                   "condition": "minecraft:alternative",
@@ -42,7 +42,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:shifted_sapling",
+              "name": "lithereal:shifted_sapling",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"
