@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lithereal:shifted_log",
+    "lithereal:mangled_log",
+    "lithereal:imbued_log",
+    "lithereal:stripped_shifted_log",
+    "lithereal:stripped_mangled_log",
+    "lithereal:stripped_imbued_log"
+  ]
+}

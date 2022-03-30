@@ -1,0 +1,76 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 3577811,
+    "fog_color": 4149614,
+    "water_color": 13987,
+    "water_fog_color": 2302833
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "starts": [
+
+  ],
+  "features": [
+    [
+      "lithereal:shifted_tree"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_lapis",
+      "minecraft:ore_redstone",
+      "lithereal:ore_litherite",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_gold",
+      "minecraft:ore_diamond"
+    ],
+    [
+
+
+
+    ],
+    [
+
+    ],
+    [
+
+    ],
+    []
+  ],
+  "spawners": {
+    "ambient": [
+
+
+    ],
+    "creature": [
+
+    ],
+    "misc": [     ],
+    "monster": [
+
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "none",
+  "precipitation": "none",
+
+  "scale": 0.08,
+  "downfall": 0.4,
+  "depth": 0.18,
+  "temperature": 1.0,
+  "player_spawn_friendly": true,
+  "spawn_costs": {}
+}

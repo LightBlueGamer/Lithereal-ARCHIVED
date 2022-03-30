@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+	  "lithereal:shifted_fence",
+	  "lithereal:shifted_log_fence",
+	  "lithereal:stripped_shifted_log_fence",
+	  "lithereal:imbued_fence",
+	  "lithereal:imbued_log_fence",
+	  "lithereal:stripped_imbued_log_fence",
+	  "lithereal:mangled_fence",
+	  "lithereal:mangled_log_fence",
+	  "lithereal:stripped_mangled_log_fence"
+  ]
+}

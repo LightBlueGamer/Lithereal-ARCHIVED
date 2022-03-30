@@ -9,8 +9,8 @@
     "TheLightBlueGame"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/lithereal-fabric",
-    "sources": "https://github.com/LightBlueGamer/Lithereal-Fabric"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/lithereal",
+    "sources": "https://github.com/LightBlueGamer/Lithereal"
   },
 
   "license": "MIT",
@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.thelightbluegame.lithereal.LitherealMod"
+    ],
+    "client": [
+      "net.thelightbluegame.lithereal.LitherealModClient"
     ]
   },
   "mixins": [
