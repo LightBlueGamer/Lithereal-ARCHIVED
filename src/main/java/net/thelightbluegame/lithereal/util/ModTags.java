@@ -9,8 +9,7 @@ import net.thelightbluegame.lithereal.LitherealMod;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> WOODEN_PLANKS = createTag("wooden_planks");
-        public static final TagKey<Block> LOGS = createTag("logs");
+        public static final TagKey<Block> LOGS = createCommonTag("logs");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(Registry.BLOCK_KEY, new Identifier(LitherealMod.MOD_ID, name));
@@ -22,6 +21,11 @@ public class ModTags {
     }
 
     public static class Items {
+        public static final TagKey<Item> WOODEN_PLANKS = createCommonTag("wooden_planks");
+        public static final TagKey<Item> LOGS = createCommonTag("logs");
+        public static final TagKey<Item> COBBLESTONE = createCommonTag("cobblestone");
+        public static final TagKey<Item> WOOD_STICKS = createCommonTag("wood_sticks");
+
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(LitherealMod.MOD_ID, name));
         }

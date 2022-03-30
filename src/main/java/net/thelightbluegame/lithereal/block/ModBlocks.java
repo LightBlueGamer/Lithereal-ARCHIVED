@@ -27,10 +27,10 @@ public class    ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block GRASS_BLOCK = registerBlock("grass_block",
-            new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).strength(0.6f).requiresTool()), ModItemGroups.LITHEREAL);
+            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)), ModItemGroups.LITHEREAL);
 
     public static final Block DIRT_BLOCK = registerBlock("dirt_block",
-            new Block(FabricBlockSettings.of(Material.SOIL).strength(0.5f).requiresTool()), ModItemGroups.LITHEREAL);
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)), ModItemGroups.LITHEREAL);
 
     public static final Block AETHER_STONE = registerBlock("aether_stone",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
@@ -392,40 +392,40 @@ public class    ModBlocks {
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroups.LITHEREAL);
 
     public static final Block SHIFTED_LOG = registerBlock("shifted_log",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)), ModItemGroups.LITHEREAL);
 
     public static final Block SHIFTED_WOOD = registerBlock("shifted_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)), ModItemGroups.LITHEREAL);
 
     public static final Block STRIPPED_SHIFTED_LOG = registerBlock("stripped_shifted_log",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)), ModItemGroups.LITHEREAL);
 
     public static final Block STRIPPED_SHIFTED_WOOD = registerBlock("stripped_shifted_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
 
     public static final Block MANGLED_LOG = registerBlock("mangled_log",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)), ModItemGroups.LITHEREAL);
 
     public static final Block MANGLED_WOOD = registerBlock("mangled_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)), ModItemGroups.LITHEREAL);
 
     public static final Block STRIPPED_MANGLED_LOG = registerBlock("stripped_mangled_log",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)), ModItemGroups.LITHEREAL);
 
     public static final Block STRIPPED_MANGLED_WOOD = registerBlock("stripped_mangled_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
 
     public static final Block IMBUED_LOG = registerBlock("imbued_log",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)), ModItemGroups.LITHEREAL);
 
     public static final Block IMBUED_WOOD = registerBlock("imbued_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)), ModItemGroups.LITHEREAL);
 
     public static final Block STRIPPED_IMBUED_LOG = registerBlock("stripped_imbued_log",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)), ModItemGroups.LITHEREAL);
 
     public static final Block STRIPPED_IMBUED_WOOD = registerBlock("stripped_imbued_wood",
-            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)), ModItemGroups.LITHEREAL);
 
     public static final Block SHIFTED_LEAVES = registerBlock("shifted_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroups.LITHEREAL);
@@ -437,26 +437,80 @@ public class    ModBlocks {
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroups.LITHEREAL);
 
     public static final Block SHIFTED_PLANKS = registerBlock("shifted_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
 
     public static final Block MANGLED_PLANKS = registerBlock("mangled_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
 
     public static final Block IMBUED_PLANKS = registerBlock("imbued_planks",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)), ModItemGroups.LITHEREAL);
 
     public static final Block SHIFTED_SAPLING = registerBlock("shifted_sapling",
             new ModSaplingBlock(new ShiftedSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.OAK_SAPLING).nonOpaque()), ModItemGroups.LITHEREAL);
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
 
     public static final Block MANGLED_SAPLING = registerBlock("mangled_sapling",
             new ModSaplingBlock(new MangledSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.OAK_SAPLING).nonOpaque()), ModItemGroups.LITHEREAL);
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
 
     public static final Block IMBUED_SAPLING = registerBlock("imbued_sapling",
             new ModSaplingBlock(new ImbuedSaplingGenerator(),
-                    FabricBlockSettings.copy(Blocks.OAK_SAPLING).nonOpaque()), ModItemGroups.LITHEREAL);
+                    FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroups.LITHEREAL);
 
+    public static final Block IMBUED_FENCE = registerBlock("imbued_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block IMBUED_FENCE_GATE = registerBlock("imbued_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block IMBUED_LOG_FENCE = registerBlock("imbued_log_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block IMBUED_LOG_FENCE_GATE = registerBlock("imbued_log_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_IMBUED_LOG_FENCE = registerBlock("stripped_imbued_log_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_IMBUED_LOG_FENCE_GATE = registerBlock("stripped_imbued_log_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block SHIFTED_FENCE = registerBlock("shifted_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block SHIFTED_FENCE_GATE = registerBlock("shifted_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block SHIFTED_LOG_FENCE = registerBlock("shifted_log_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block SHIFTED_LOG_FENCE_GATE = registerBlock("shifted_log_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_SHIFTED_LOG_FENCE = registerBlock("stripped_shifted_log_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_SHIFTED_LOG_FENCE_GATE = registerBlock("stripped_shifted_log_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block MANGLED_FENCE = registerBlock("mangled_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block MANGLED_FENCE_GATE = registerBlock("mangled_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block MANGLED_LOG_FENCE = registerBlock("mangled_log_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block MANGLED_LOG_FENCE_GATE = registerBlock("mangled_log_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_MANGLED_LOG_FENCE = registerBlock("stripped_mangled_log_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+
+    public static final Block STRIPPED_MANGLED_LOG_FENCE_GATE = registerBlock("stripped_mangled_log_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.WOOD).strength(2.5f).requiresTool()), ModItemGroups.LITHEREAL);
+    
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(LitherealMod.MOD_ID, name), block);

@@ -16,15 +16,15 @@ public class ModPlacedFeatures {
 
     public static final RegistryEntry<PlacedFeature> SHIFTED_PLACED = PlacedFeatures.register("shifted_placed",
             ModConfiguredFeatures.SHIFTED_SPAWN, VegetationPlacedFeatures.modifiers(
-                    PlacedFeatures.createCountExtraModifier(1, 0.1f, 2)));
+                    PlacedFeatures.createCountExtraModifier(1, 0.1f, 0)));
 
     public static final RegistryEntry<PlacedFeature> IMBUED_PLACED = PlacedFeatures.register("imbued_placed",
             ModConfiguredFeatures.IMBUED_SPAWN, VegetationPlacedFeatures.modifiers(
-                    PlacedFeatures.createCountExtraModifier(1, 0.1f, 2)));
+                    PlacedFeatures.createCountExtraModifier(1, 0.1f, 0)));
 
     public static final RegistryEntry<PlacedFeature> MANGLED_PLACED = PlacedFeatures.register("mangled_placed",
             ModConfiguredFeatures.MANGLED_SPAWN, VegetationPlacedFeatures.modifiers(
-                    PlacedFeatures.createCountExtraModifier(1, 0.1f, 2)));
+                    PlacedFeatures.createCountExtraModifier(1, 0.1f, 0)));
 
     public static final RegistryEntry<PlacedFeature> LITHERITE_ORE_PLACED = PlacedFeatures.register("litherite_ore_placed",
             ModConfiguredFeatures.LITHERITE_ORE, ModOreFeatures.modifiersWithCount(7,

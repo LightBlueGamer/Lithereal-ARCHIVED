@@ -1,13 +1,49 @@
 {
-  "type": "minecraft:overworld",
+  "type": "lithereal:lithereal_type",
   "generator": {
     "type": "minecraft:noise",
     "seed": 0,
-    "settings": "minecraft:overworld",
+    "settings": "lithereal:lithereal_noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
-      "preset": "minecraft:overworld"
+      "biomes": [
+        {
+          "biome": "lithereal:shifted_forest",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "lithereal:imbued_forest",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "lithereal:mangled_woods",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
     }
-  },
-  "type": "lithereal:lithereal_type"
+  }
 }
