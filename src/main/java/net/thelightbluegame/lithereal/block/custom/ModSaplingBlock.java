@@ -15,6 +15,6 @@ public class ModSaplingBlock extends SaplingBlock {
 
     @Override
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return floor.isOf(ModBlocks.GRASS_BLOCK) || floor.isOf(ModBlocks.DIRT_BLOCK) || floor.isOf(Blocks.GRASS_BLOCK);
+        return floor.isOf(ModBlocks.GRASS_BLOCK) || floor.isOf(ModBlocks.DIRT_BLOCK) || floor.isOf(Blocks.GRASS_BLOCK) || floor.isOf(Blocks.DIRT);
     }
 }

@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.thelightbluegame.lithereal.LitherealMod;
 import net.thelightbluegame.lithereal.item.custom.ModAxeItem;
+import net.thelightbluegame.lithereal.item.custom.ModHammerItem;
 import net.thelightbluegame.lithereal.item.custom.ModHoeItem;
 import net.thelightbluegame.lithereal.item.custom.ModPickaxeItem;
 
@@ -20,6 +21,16 @@ public class ModItems {
 
     public static final Item INFUSED_COAL = registerItem("infused_coal",
             new Item(new FabricItemSettings().group(ModItemGroups.LITHEREAL)));
+
+    public static final Item PULVERIZED_LITHERITE = registerItem("pulverized_litherite",
+            new Item(new FabricItemSettings().group(ModItemGroups.LITHEREAL)));
+
+    public static Item LITHERITE_HAMMER;
+
+    static {
+        LITHERITE_HAMMER = registerItem("litherite_hammer",
+                new ModHammerItem(new FabricItemSettings().group(ModItemGroups.LITHEREAL), LITHERITE_HAMMER, 500));
+    }
 
     public static final Item LITHERITE_PICKAXE = registerItem("litherite_pickaxe",
             new ModPickaxeItem(ModToolMaterial.LITHERITE, 1, -2.8f,

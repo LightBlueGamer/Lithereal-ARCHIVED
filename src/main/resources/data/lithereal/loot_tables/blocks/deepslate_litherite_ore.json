@@ -3,14 +3,11 @@
   "pools": [
     {
       "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
-            {
-              "type": "minecraft:item",
-              "name": "lithereal:raw_litherite"
-            },
             {
               "type": "minecraft:item",
               "name": "lithereal:deepslate_litherite_ore",
@@ -27,6 +24,15 @@
                       }
                     ]
                   }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "lithereal:raw_litherite",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
                 }
               ]
             }
