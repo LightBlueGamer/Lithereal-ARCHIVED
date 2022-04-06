@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lithereal:litherite_ore"
+      "item": "minecraft:diamond"
     },
     {
       "item": "lithereal:litherite_hammer"
     }
   ],
   "result": {
-    "item": "lithereal:pulverized_litherite",
-    "count": 2
+    "item": "lithereal:diamond_plate",
+    "count": 1
   }
 }

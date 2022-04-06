@@ -1,23 +1,27 @@
 package net.thelightbluegame.lithereal.item.custom;
 
-import net.minecraft.entity.player.PlayerEntity;
+import com.kwpugh.pugh_lib.api.CustomRecipeRemainder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.world.World;
 
-import java.util.Random;
-
-public class ModHammerItem extends Item {
-    public ModHammerItem(Item.Settings settings, Item remainder, int damage) {
-        super(settings.maxDamage(damage).recipeRemainder(remainder));
+public class ModHammerItem extends Item implements CustomRecipeRemainder {
+    public ModHammerItem(Item.Settings settings) {
+        super(settings);
     }
 
     @Override
-    public void onCraft(ItemStack stack, World world, PlayerEntity player) {
-        stack.damage(1, new Random(), (ServerPlayerEntity) player);
-        ItemStack newStack = stack.copy();
-        super.onCraft(stack, world, player);
-        player.giveItemStack(newStack);
+    public boolean hasRecipeRemainder() {
+        return true;
+    }
+
+    @Override
+    public ItemStack getRecipeRemainder(ItemStack stackIn) {
+        final ItemStack stack = stackIn.copy();
+        stack.setDamage(stack.getDamage() + 1);
+
+        if (stack.getDamage() >= stack.getMaxDamage()) {
+            stack.decrement(1);
+        }
+        return stack;
     }
 }

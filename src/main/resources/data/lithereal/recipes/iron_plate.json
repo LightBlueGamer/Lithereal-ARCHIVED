@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lithereal:litherite_ore"
+      "item": "minecraft:iron_ingot"
     },
     {
       "item": "lithereal:litherite_hammer"
     }
   ],
   "result": {
-    "item": "lithereal:pulverized_litherite",
-    "count": 2
+    "item": "lithereal:iron_plate",
+    "count": 1
   }
 }

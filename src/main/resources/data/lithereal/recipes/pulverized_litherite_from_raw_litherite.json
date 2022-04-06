@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lithereal:litherite_ore"
+      "item": "lithereal:raw_litherite"
     },
     {
       "item": "lithereal:litherite_hammer"
@@ -10,6 +10,6 @@
   ],
   "result": {
     "item": "lithereal:pulverized_litherite",
-    "count": 2
+    "count": 1
   }
 }

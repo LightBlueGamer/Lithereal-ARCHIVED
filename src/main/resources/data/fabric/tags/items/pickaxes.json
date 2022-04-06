@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "lithereal:litherite_pickaxe"
+    "lithereal:litherite_pickaxe",
+    "lithereal:litherite_aiot"
   ]
 }
