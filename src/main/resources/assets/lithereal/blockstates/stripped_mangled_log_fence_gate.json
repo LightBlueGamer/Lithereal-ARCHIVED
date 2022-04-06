@@ -13,7 +13,7 @@
     "facing=east,in_wall=true,open=false": {
       "uvlock": true,
       "y": 270,
-      "model": "lithereal:block/sstripped_mangled_log_fence_gate_wall"
+      "model": "lithereal:block/stripped_mangled_log_fence_gate_wall"
     },
     "facing=east,in_wall=true,open=true": {
       "uvlock": true,

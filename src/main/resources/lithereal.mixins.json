@@ -4,9 +4,13 @@
   "package": "net.thelightbluegame.lithereal.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "AxeItemAccessor",
+    "HoeItemAccessor",
+    "MiningToolAccessor",
+    "MiningToolItemMixin",
+    "ShovelItemAccessor"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "lithereal:litherite_hammer"
+    }
+  ],
+  "result": {
+    "item": "lithereal:diamond_plate",
+    "count": 1
+  }
+}

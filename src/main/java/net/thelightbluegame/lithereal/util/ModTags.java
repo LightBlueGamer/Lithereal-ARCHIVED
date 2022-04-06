@@ -25,6 +25,11 @@ public class ModTags {
         public static final TagKey<Item> LOGS = createCommonTag("logs");
         public static final TagKey<Item> COBBLESTONE = createCommonTag("cobblestone");
         public static final TagKey<Item> WOOD_STICKS = createCommonTag("wood_sticks");
+        public static final TagKey<Item> DIAMOND_PLATES = createCommonTag("diamond_plates");
+        public static final TagKey<Item> IRON_PLATES = createCommonTag("iron_plates");
+        public static final TagKey<Item> GOLD_PLATES = createCommonTag("gold_plates");
+        public static final TagKey<Item> COPPER_PLATES = createCommonTag("copper_plates");
+        public static final TagKey<Item> HAMMERS = createCommonTag("hammers");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(LitherealMod.MOD_ID, name));
