@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "lithereal:aether_deepslate_bricks"
-  },
-  "result": "lithereal:aether_deepslate_brick_stairs",
-  "count": 1
-}

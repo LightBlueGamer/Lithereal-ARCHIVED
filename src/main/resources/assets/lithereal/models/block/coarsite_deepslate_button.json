@@ -1,6 +1,0 @@
-{
-  "parent": "block/button",
-  "textures": {
-    "texture": "lithereal:block/coarsite_deepslate"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "lithereal:litherite_ore"
-  },
-  "result": "lithereal:pure_litherite",
-  "experience": 0.7,
-  "cookingtime": 100
-}

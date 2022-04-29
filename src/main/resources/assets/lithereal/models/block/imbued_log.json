@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "lithereal:block/imbued_log_top",
-    "side": "lithereal:block/imbued_log"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "lithereal:block/coarsite_deepslate",
-    "top": "lithereal:block/coarsite_deepslate",
-    "side": "lithereal:block/coarsite_deepslate"
-  }
-}

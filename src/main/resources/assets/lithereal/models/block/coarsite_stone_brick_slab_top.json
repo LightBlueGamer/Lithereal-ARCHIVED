@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "lithereal:block/coarsite_stone_bricks",
-    "top": "lithereal:block/coarsite_stone_bricks",
-    "side": "lithereal:block/coarsite_stone_bricks"
-  }
-}

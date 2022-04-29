@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "lithereal:coarsite_cobblestone"
-  },
-  "result": "lithereal:coarsite_cobblestone_stairs",
-  "count": 1
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "lithereal:block/aether_stone_bricks",
-    "top": "lithereal:block/aether_stone_bricks",
-    "side": "lithereal:block/aether_stone_bricks"
-  }
-}

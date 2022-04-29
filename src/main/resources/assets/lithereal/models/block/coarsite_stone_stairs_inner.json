@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "lithereal:block/coarsite_stone",
-    "top": "lithereal:block/coarsite_stone",
-    "side": "lithereal:block/coarsite_stone"
-  }
-}

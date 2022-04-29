@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "lithereal:coarsite_smooth_stone"
-  },
-  "result": "lithereal:coarsite_smooth_stone_slab",
-  "count": 2
-}

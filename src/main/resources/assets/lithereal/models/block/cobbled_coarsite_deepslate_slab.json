@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "lithereal:block/cobbled_coarsite_deepslate",
-    "top": "lithereal:block/cobbled_coarsite_deepslate",
-    "side": "lithereal:block/cobbled_coarsite_deepslate"
-  }
-}

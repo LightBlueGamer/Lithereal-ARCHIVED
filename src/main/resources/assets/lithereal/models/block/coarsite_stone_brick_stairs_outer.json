@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "lithereal:block/coarsite_stone_bricks",
-    "top": "lithereal:block/coarsite_stone_bricks",
-    "side": "lithereal:block/coarsite_stone_bricks"
-  }
-}

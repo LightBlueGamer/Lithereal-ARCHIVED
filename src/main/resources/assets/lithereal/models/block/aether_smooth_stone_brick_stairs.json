@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "lithereal:block/aether_smooth_stone_bricks",
-    "top": "lithereal:block/aether_smooth_stone_bricks",
-    "side": "lithereal:block/aether_smooth_stone_bricks"
-  }
-}
